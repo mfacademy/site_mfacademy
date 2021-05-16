@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.menuMobActive {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background: #fff;
+  z-index: 999;
+  width: 70%;
+}
+
+.menuMobActive button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-right: 35px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.menuMobActive .groupBtnMob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.menuMob {
+  display: none;
+}
